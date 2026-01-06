@@ -1,5 +1,5 @@
 # Gitleaks!
-
+  
 ```
 ┌─○───┐
 │ │╲  │
@@ -78,7 +78,7 @@ docker run -v ${path_to_host_folder_to_scan}:/path zricethezav/gitleaks:latest [
 docker pull ghcr.io/gitleaks/gitleaks:latest
 docker run -v ${path_to_host_folder_to_scan}:/path ghcr.io/gitleaks/gitleaks:latest [COMMAND] [OPTIONS] [SOURCE_PATH]
 
-# From Source (make sure `go` is installed)
+# From Source (make sure `go` is installed) 
 git clone https://github.com/gitleaks/gitleaks.git
 cd gitleaks
 make build
